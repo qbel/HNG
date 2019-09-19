@@ -1,0 +1,52 @@
+#cover{
+    background-image: url('../img/one.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 400px; */
+    position: relative;
+    text-align: center;
+}
+#hello{
+    margin-top: 200px;
+    color: white;
+    
+    /* font-weight:bolder; */
+}
+#enter{
+    font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+text-align: center;
+
+color: #FDFDFF;
+}
+#new{
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and ( max-width: 1024px ){
+   
+}
+@media only screen and ( max-width: 667px ){
+   
+    }
+@media only screen and ( max-width: 640px ){
+    #hello{
+        margin-top:50px;
+    }
+    #new{
+        display: none;
+
+    }
+    #enter{
+        display: none;
+    }
+    #okay{
+        /* padding-top: 20px; */
+    }
+}
